@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiten1007/AI-CHAT-APP-BACKEND.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hiten1007/AI-CHAT-APP-BACKEND/issues"
+  },
+  "homepage": "https://github.com/Hiten1007/AI-CHAT-APP-BACKEND#readme",
+  "description": "",
+  "type":"module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
