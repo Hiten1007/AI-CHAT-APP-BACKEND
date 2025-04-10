@@ -7,7 +7,7 @@ connectDB();
 const seed = async () => {
   await connectDB();
 
-  const user = await User.create({ username: 'testuser', password: 'passwAord123' });
+  const user = await User.create({ username: 'testuser1', password: 'passwAord123' });
 
   const chat = await Chat.create({ user: user._id });
 
