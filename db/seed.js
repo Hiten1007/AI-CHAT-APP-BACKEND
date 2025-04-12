@@ -9,7 +9,7 @@ const seed = async () => {
 
   const user = await User.create({ username: 'testuser1', password: 'passwAord123' });
 
-  const chat = await Chat.create({ user: user._id });
+  const chat = await Chat.create({ user: user._id, name: 'Test Chat' });
 
   const message = await Message.create({
     chat: chat._id,
