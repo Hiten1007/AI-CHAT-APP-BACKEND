@@ -8,6 +8,7 @@ import chatRoutes from './Routes/chatRoutes.js';
 
 config();
 
+const createApp = () => {
 const app = express();
 
 app.use(cors({
@@ -25,6 +26,8 @@ app.use('/api/auth', authRoutes);
 
 app.use('/api/chat', chatRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running on port ${process.env.PORT}`);
-});
+return app;
+}
+
+
+export default createApp;
